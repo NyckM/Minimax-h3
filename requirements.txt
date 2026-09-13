@@ -1,0 +1,7 @@
+# Bruxos — MiniMax-H3 — dependencias
+# NAO liste torch/numpy/xformers aqui: o ComfyUI ja traz.
+
+opencv-python
+safetensors
+einops
+huggingface_hub

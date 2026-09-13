@@ -1,0 +1,14 @@
+[project]
+name = "ComfyUI-Bruxos-MiniMaxH3"
+description = "Tudo de MiniMax-H3: loader, frames 17n+5, Context-IR, prompt rapido, outpaint/mascara, upscale 2-pass e neural, rolling memory, latente no SSD, autocontext, sampler unlimited, PDD e latent I/O."
+version = "2.0.0"
+license = { text = "Apache-2.0" }
+dependencies = ["opencv-python", "safetensors", "einops", "huggingface_hub"]
+
+[project.urls]
+Repository = "https://github.com/SEU-USUARIO/ComfyUI-Bruxos-MiniMaxH3"
+
+[tool.comfy]
+PublisherId = "bruxos-do-vfx"
+DisplayName = "Bruxos — MiniMax-H3"
+Icon = ""
